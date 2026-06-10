@@ -1,0 +1,13 @@
+[package]
+name = "rust-play"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+[build-dependencies]
+cbindgen = "0.29.3"
+
+[lib]
+name = "play_lib"
+crate-type = ["staticlib"]
